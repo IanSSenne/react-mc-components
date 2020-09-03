@@ -1,0 +1,51 @@
+.ec-content {
+  background-image: url(/give/enchantment-item-content.png);
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.ec-content.unselected {
+  background-image: url(/give/enchantment-item-content$unselected.png);
+}
+
+.button.ec-rem {
+  background-image: url(/give/enchantment-remove-button.png);
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+}
+
+.button.ec-add {
+  background-image: url(/give/enchantment-add-button.png);
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+}
+
+.button.ec-add.unselected {
+  background-image: url(/give/enchantment-add-button$unselected.png);
+}
+
+.button.ec-rem.unselected {
+  background-image: url(/give/enchantment-remove-button$unselected.png);
+}
+
+.button.ec-rem:hover:not(.unselected) {
+  background-image: url(/give/enchantment-remove-button$selected.png);
+}
+
+.button.ec-add:hover:not(.unselected) {
+  background-image: url(/give/enchantment-add-button$selected.png);
+}
+
+.item-host {
+  border-image: url(/give/item-overlay.png?a=1) 5 fill;
+  width: max-content;
+  color: white;
+}
+
+.item-enchantments {
+  list-style: none;
+  padding: 0;
+}
